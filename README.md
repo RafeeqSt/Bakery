@@ -7,3 +7,5 @@
  made and where each order needs to be delivered to or when it will be collected.
  
  ![](Images/UML.jgp)
+ 
+ <img src="Images/UML.jpg" >
