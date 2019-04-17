@@ -6,6 +6,4 @@
  The application intends to make it easy for employees to know when an order is to be 
  made and where each order needs to be delivered to or when it will be collected.
  
- ![](Images/UML.jgp)
- 
  <img src="Images/UML.jpg" >
