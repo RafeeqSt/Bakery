@@ -11,6 +11,6 @@ public class SavouryFactoryTest {
     public void getSavoury() {
         String savouryCode = "1";
         Savoury profile = SavouryFactory.getSavoury(savouryCode);
-        assertNotNull(profile.getSmallCakeCode());
+        assertNotNull(profile.getSavouryCode());
     }
 }

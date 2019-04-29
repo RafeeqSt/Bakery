@@ -12,7 +12,7 @@ public class Savoury {
 
     }
 
-    public String getSmallCakeCode() {
+    public String getSavouryCode() {
         return savouryCode;
     }
 
