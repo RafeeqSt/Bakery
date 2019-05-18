@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5d63afd3-31be-4516-8bfa-364c73f2aaf3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Services/Stock/Impl/IngredientServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Services/Stock/Impl/IngredientServiceImpl.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,34 +19,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Services/Profile/Impl/OwnerServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#338#339#0" expanded="true" />
-                <element signature="e#410#411#0" expanded="true" />
-                <element signature="e#621#622#0" expanded="true" />
-                <element signature="e#676#677#0" expanded="true" />
-                <element signature="e#739#740#0" expanded="true" />
-                <element signature="e#794#795#0" expanded="true" />
-                <element signature="e#852#853#0" expanded="true" />
-                <element signature="e#905#906#0" expanded="true" />
-                <element signature="e#962#963#0" expanded="true" />
-                <element signature="e#1010#1011#0" expanded="true" />
-                <element signature="e#1060#1061#0" expanded="true" />
-                <element signature="e#1107#1108#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Services/Profile/Impl/ProfileServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="816">
-              <caret line="48" column="5" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="48" selection-end-column="5" />
+              <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#343#344#0" expanded="true" />
@@ -66,48 +43,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Services/Stock/Impl/EquipmentServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Services/Stock/Impl/InventoryServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="816">
-              <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+            <state relative-caret-position="187">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#345#346#0" expanded="true" />
-                <element signature="e#416#417#0" expanded="true" />
-                <element signature="e#620#621#0" expanded="true" />
-                <element signature="e#672#673#0" expanded="true" />
-                <element signature="e#730#731#0" expanded="true" />
-                <element signature="e#782#783#0" expanded="true" />
-                <element signature="e#839#840#0" expanded="true" />
-                <element signature="e#892#893#0" expanded="true" />
-                <element signature="e#949#950#0" expanded="true" />
-                <element signature="e#997#998#0" expanded="true" />
-                <element signature="e#1046#1047#0" expanded="true" />
-                <element signature="e#1093#1094#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Services/Stock/Impl/IngredientItemServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="816">
-              <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#371#372#0" expanded="true" />
-                <element signature="e#444#445#0" expanded="true" />
-                <element signature="e#660#661#0" expanded="true" />
-                <element signature="e#716#717#0" expanded="true" />
-                <element signature="e#782#783#0" expanded="true" />
-                <element signature="e#838#839#0" expanded="true" />
-                <element signature="e#896#897#0" expanded="true" />
-                <element signature="e#948#949#0" expanded="true" />
-                <element signature="e#1004#1005#0" expanded="true" />
-                <element signature="e#1051#1052#0" expanded="true" />
-                <element signature="e#1102#1103#0" expanded="true" />
-                <element signature="e#1149#1150#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -116,83 +57,44 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Services/Stock/Impl/IngredientServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="815">
-              <caret line="47" column="5" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="47" selection-end-column="5" />
+            <state relative-caret-position="170">
+              <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#370#371#0" expanded="true" />
-                <element signature="e#448#449#0" expanded="true" />
-                <element signature="e#684#685#0" expanded="true" />
-                <element signature="e#740#741#0" expanded="true" />
-                <element signature="e#816#817#0" expanded="true" />
-                <element signature="e#872#873#0" expanded="true" />
-                <element signature="e#935#936#0" expanded="true" />
-                <element signature="e#987#988#0" expanded="true" />
-                <element signature="e#1043#1044#0" expanded="true" />
-                <element signature="e#1090#1091#0" expanded="true" />
-                <element signature="e#1146#1147#0" expanded="true" />
-                <element signature="e#1193#1194#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Services/Stock/Impl/IngredientItemServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="612">
+              <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Services/Stock/Impl/InventoryServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Services/Stock/Impl/EquipmentServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+            <state relative-caret-position="612">
+              <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#354#355#0" expanded="true" />
-                <element signature="e#428#429#0" expanded="true" />
-                <element signature="e#649#650#0" expanded="true" />
-                <element signature="e#706#707#0" expanded="true" />
-                <element signature="e#775#776#0" expanded="true" />
-                <element signature="e#832#833#0" expanded="true" />
-                <element signature="e#981#982#0" expanded="true" />
-                <element signature="e#1040#1041#0" expanded="true" />
-                <element signature="e#1020#1021#0" expanded="true" />
-                <element signature="e#1074#1075#0" expanded="true" />
-                <element signature="e#1126#1127#0" expanded="true" />
-                <element signature="e#1173#1174#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Services/Stock/EquipmentService.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Services/IService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Domain/Stock/Ingredient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Domain/Stock/Equipment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="238">
+              <caret line="14" column="11" lean-forward="true" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -269,8 +171,8 @@
         <option value="$PROJECT_DIR$/src/main/java/Services/Profile/Impl/ProfileServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/Services/Stock/Impl/EquipmentServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/Services/Stock/Impl/IngredientItemServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Services/Stock/Impl/IngredientServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/Services/Stock/Impl/InventoryServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Services/Stock/Impl/IngredientServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -316,6 +218,40 @@
               <item name="Bakery" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Bakery" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Bakery" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Bakery" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Bakery" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Bakery" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Bakery" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Services" type="462c0819:PsiDirectoryNode" />
+              <item name="Stock" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Bakery" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Bakery" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Services" type="462c0819:PsiDirectoryNode" />
+              <item name="Stock" type="462c0819:PsiDirectoryNode" />
+              <item name="Impl" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -445,7 +381,7 @@
       <workItem from="1556479535696" duration="696000" />
       <workItem from="1556480435633" duration="623000" />
       <workItem from="1556482444878" duration="5205000" />
-      <workItem from="1558171852224" duration="13683000" />
+      <workItem from="1558171852224" duration="16357000" />
     </task>
     <task id="LOCAL-00001" summary="Adding Domains as well as Factories and tests for each domain">
       <created>1555466390849</created>
@@ -475,7 +411,21 @@
       <option name="project" value="LOCAL" />
       <updated>1558179453229</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Adding Repositories with implementations and Test cases">
+      <created>1558192123718</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1558192123718</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Adding Repositories with implementations and Test cases">
+      <created>1558192172048</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1558192172048</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -490,7 +440,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64406000" />
+    <option name="totallyTimeSpent" value="67080000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -503,6 +453,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Web" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13219616" />
@@ -726,13 +677,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
-          <caret line="74" selection-start-line="74" selection-end-line="74" />
         </state>
       </provider>
     </entry>
@@ -1023,76 +967,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Services/Profile/Impl/ProfileServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="48" column="5" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="48" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#343#344#0" expanded="true" />
-            <element signature="e#412#413#0" expanded="true" />
-            <element signature="e#608#609#0" expanded="true" />
-            <element signature="e#660#661#0" expanded="true" />
-            <element signature="e#714#715#0" expanded="true" />
-            <element signature="e#766#767#0" expanded="true" />
-            <element signature="e#821#822#0" expanded="true" />
-            <element signature="e#874#875#0" expanded="true" />
-            <element signature="e#931#932#0" expanded="true" />
-            <element signature="e#979#980#0" expanded="true" />
-            <element signature="e#1026#1027#0" expanded="true" />
-            <element signature="e#1073#1074#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Domain/Stock/Equipment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Services/Stock/Impl/EquipmentServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#345#346#0" expanded="true" />
-            <element signature="e#416#417#0" expanded="true" />
-            <element signature="e#620#621#0" expanded="true" />
-            <element signature="e#672#673#0" expanded="true" />
-            <element signature="e#730#731#0" expanded="true" />
-            <element signature="e#782#783#0" expanded="true" />
-            <element signature="e#839#840#0" expanded="true" />
-            <element signature="e#892#893#0" expanded="true" />
-            <element signature="e#949#950#0" expanded="true" />
-            <element signature="e#997#998#0" expanded="true" />
-            <element signature="e#1046#1047#0" expanded="true" />
-            <element signature="e#1093#1094#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Services/Stock/Impl/IngredientItemServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#371#372#0" expanded="true" />
-            <element signature="e#444#445#0" expanded="true" />
-            <element signature="e#660#661#0" expanded="true" />
-            <element signature="e#716#717#0" expanded="true" />
-            <element signature="e#782#783#0" expanded="true" />
-            <element signature="e#838#839#0" expanded="true" />
-            <element signature="e#896#897#0" expanded="true" />
-            <element signature="e#948#949#0" expanded="true" />
-            <element signature="e#1004#1005#0" expanded="true" />
-            <element signature="e#1051#1052#0" expanded="true" />
-            <element signature="e#1102#1103#0" expanded="true" />
-            <element signature="e#1149#1150#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1117,46 +995,71 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Services/Stock/Impl/IngredientServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="815">
-          <caret line="47" column="5" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="47" selection-end-column="5" />
+        <state relative-caret-position="238">
+          <caret line="14" column="11" lean-forward="true" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Services/Profile/Impl/ProfileServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#370#371#0" expanded="true" />
-            <element signature="e#448#449#0" expanded="true" />
-            <element signature="e#684#685#0" expanded="true" />
-            <element signature="e#740#741#0" expanded="true" />
-            <element signature="e#816#817#0" expanded="true" />
-            <element signature="e#872#873#0" expanded="true" />
-            <element signature="e#935#936#0" expanded="true" />
-            <element signature="e#987#988#0" expanded="true" />
-            <element signature="e#1043#1044#0" expanded="true" />
-            <element signature="e#1090#1091#0" expanded="true" />
-            <element signature="e#1146#1147#0" expanded="true" />
-            <element signature="e#1193#1194#0" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
+            <element signature="e#412#413#0" expanded="true" />
+            <element signature="e#608#609#0" expanded="true" />
+            <element signature="e#660#661#0" expanded="true" />
+            <element signature="e#714#715#0" expanded="true" />
+            <element signature="e#766#767#0" expanded="true" />
+            <element signature="e#821#822#0" expanded="true" />
+            <element signature="e#874#875#0" expanded="true" />
+            <element signature="e#931#932#0" expanded="true" />
+            <element signature="e#979#980#0" expanded="true" />
+            <element signature="e#1026#1027#0" expanded="true" />
+            <element signature="e#1073#1074#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Services/Stock/Impl/InventoryServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        <state relative-caret-position="187">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#354#355#0" expanded="true" />
-            <element signature="e#428#429#0" expanded="true" />
-            <element signature="e#649#650#0" expanded="true" />
-            <element signature="e#706#707#0" expanded="true" />
-            <element signature="e#775#776#0" expanded="true" />
-            <element signature="e#832#833#0" expanded="true" />
-            <element signature="e#981#982#0" expanded="true" />
-            <element signature="e#1040#1041#0" expanded="true" />
-            <element signature="e#1020#1021#0" expanded="true" />
-            <element signature="e#1074#1075#0" expanded="true" />
-            <element signature="e#1126#1127#0" expanded="true" />
-            <element signature="e#1173#1174#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Services/Stock/Impl/IngredientServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Services/Stock/Impl/IngredientItemServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Services/Stock/Impl/EquipmentServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -4,10 +4,11 @@ import Domain.Stock.Ingredient;
 import Repository.Stock.Impl.IngredientRepositoryImpl;
 import Repository.Stock.IngredientRepository;
 import Services.Stock.IngredientService;
+import org.springframework.stereotype.Service;
 
-import java.util.HashSet;
 import java.util.Set;
 
+@Service
 public class IngredientServiceImpl implements IngredientService {
 
     private static IngredientServiceImpl service = null;
