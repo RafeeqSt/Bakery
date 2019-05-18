@@ -1,68 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5d63afd3-31be-4516-8bfa-364c73f2aaf3" name="Default Changelist" comment="Adding Domains as well as Factories and tests for each domain">
-      <change afterPath="$PROJECT_DIR$/.idea/Bakery.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Repository/CakeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Repository/CorporateRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Repository/DomesticRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Repository/EmployeeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Repository/EquipmentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Repository/IRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Repository/Impl/CakeRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Repository/Impl/CorporateRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Repository/Impl/DomesticRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Repository/Impl/EmployeeRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Repository/Impl/EquipmentRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Repository/Impl/IngredientItemRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Repository/Impl/IngredientRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Repository/Impl/InventoryRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Repository/Impl/LargeCakeRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Repository/Impl/OrderItemRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Repository/Impl/OrderRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Repository/Impl/OwnerRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Repository/Impl/ProfileRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Repository/Impl/SavouryRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Repository/Impl/SmallCakeRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Repository/IngredientItemRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Repository/IngredientRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Repository/InventoryRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Repository/LargeCakeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Repository/OrderItemRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Repository/OrderRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Repository/OwnerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Repository/ProfileRepositpry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Repository/SavouryRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Repository/SmallCakeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Repository/Impl/CakeRepositoryImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Repository/Impl/CorporateRepositoryImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Repository/Impl/DomesticRepositoryImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Repository/Impl/EmployeeRepositoryImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Repository/Impl/EquipmentRepositoryImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Repository/Impl/IngredientItemRepositoryImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Repository/Impl/IngredientRepositoryImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Repository/Impl/InventoryRepositoryImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Repository/Impl/LargeCakeRepositoryImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Repository/Impl/OrderItemRepositoryImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Repository/Impl/OrderRepositoryImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Repository/Impl/OwnerRepositoryImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Repository/Impl/ProfileRepositoryImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Repository/Impl/SavouryRepositoryImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Repository/Impl/SmallCakeRepositoryImplTest.java" afterDir="false" />
+    <list default="true" id="5d63afd3-31be-4516-8bfa-364c73f2aaf3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Domain/ItemTypes/Savoury.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Domain/ItemTypes/Savoury.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Factory/SavouryFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Factory/SavouryFactoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Domain/Item$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Domain/Item$Builder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Domain/Item.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Factory/ItemFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Domain/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Domain/AppTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Factory/ItemFactoryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Factory/CakeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Factory/ItemTypes/CakeFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Factory/CorporateFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Factory/Customers/CorporateFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Factory/DomesticFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Factory/Customers/DomesticFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Factory/EmployeeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Factory/Profile/EmployeeFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Factory/EquipmentFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Factory/Stock/EquipmentFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Factory/IngredientFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Factory/Stock/IngredientFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Factory/IngredientItemFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Factory/Stock/IngredientItemFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Factory/InventoryFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Factory/Stock/InventoryFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Factory/LargeCakeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Factory/ItemTypes/LargeCakeFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Factory/OrderFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Factory/Orders/OrderFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Factory/OrderItemFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Factory/Orders/OrderItemFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Factory/OwnerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Factory/Profile/OwnerFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Factory/ProfileFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Factory/Profile/ProfileFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Factory/SavouryFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Factory/ItemTypes/SavouryFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Factory/SmallCakeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Factory/ItemTypes/SmallCakeFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Repository/CakeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repository/ItemTypes/CakeRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Repository/CorporateRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repository/Customers/CorporateRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Repository/DomesticRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repository/Customers/DomesticRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Repository/EmployeeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repository/Profile/EmployeeRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Repository/EquipmentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repository/Stock/EquipmentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Repository/Impl/CakeRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repository/ItemTypes/Impl/CakeRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Repository/Impl/CorporateRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repository/Customers/Impl/CorporateRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Repository/Impl/DomesticRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repository/Customers/Impl/DomesticRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Repository/Impl/EmployeeRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repository/Profile/Impl/EmployeeRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Repository/Impl/EquipmentRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repository/Stock/Impl/EquipmentRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Repository/Impl/IngredientItemRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repository/Stock/Impl/IngredientItemRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Repository/Impl/IngredientRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repository/Stock/Impl/IngredientRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Repository/Impl/InventoryRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repository/Stock/Impl/InventoryRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Repository/Impl/LargeCakeRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repository/ItemTypes/Impl/LargeCakeRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Repository/Impl/OrderItemRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repository/Orders/Impl/OrderItemRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Repository/Impl/OrderRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repository/Orders/Impl/OrderRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Repository/Impl/OwnerRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repository/Profile/Impl/OwnerRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Repository/Impl/ProfileRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repository/Profile/Impl/ProfileRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Repository/Impl/SavouryRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repository/ItemTypes/Impl/SavouryRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Repository/Impl/SmallCakeRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repository/ItemTypes/Impl/SmallCakeRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Repository/IngredientItemRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repository/Stock/IngredientItemRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Repository/IngredientRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repository/Stock/IngredientRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Repository/InventoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repository/Stock/InventoryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Repository/LargeCakeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repository/ItemTypes/LargeCakeRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Repository/OrderItemRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repository/Orders/OrderItemRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Repository/OrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repository/Orders/OrderRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Repository/OwnerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repository/Profile/OwnerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Repository/ProfileRepositpry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repository/Profile/ProfileRepositpry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Repository/SavouryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repository/ItemTypes/SavouryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Repository/SmallCakeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repository/ItemTypes/SmallCakeRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Factory/CakeFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Factory/ItemTypes/CakeFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Factory/CorporateFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Factory/Customers/CorporateFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Factory/DomesticFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Factory/Customers/DomesticFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Factory/EmployeeFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Factory/Profile/EmployeeFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Factory/EquipmentFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Factory/Stock/EquipmentFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Factory/IngredientFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Factory/Stock/IngredientFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Factory/IngredientItemFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Factory/Stock/IngredientItemFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Factory/InventoryFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Factory/Stock/InventoryFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Factory/LargeCakeFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Factory/ItemTypes/LargeCakeFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Factory/OrderFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Factory/Orders/OrderFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Factory/OrderItemFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Factory/Orders/OrderItemFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Factory/OwnerFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Factory/Profile/OwnerFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Factory/ProfileFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Factory/Profile/ProfileFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Factory/SavouryFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Factory/ItemTypes/SavouryFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Factory/SmallCakeFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Factory/ItemTypes/SmallCakeFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Repository/Impl/CakeRepositoryImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Repository/Impl/ItemTypes/CakeRepositoryImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Repository/Impl/CorporateRepositoryImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Repository/Impl/Customers/CorporateRepositoryImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Repository/Impl/DomesticRepositoryImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Repository/Impl/Customers/DomesticRepositoryImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Repository/Impl/EmployeeRepositoryImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Repository/Impl/Profile/EmployeeRepositoryImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Repository/Impl/EquipmentRepositoryImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Repository/Impl/Stock/EquipmentRepositoryImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Repository/Impl/IngredientItemRepositoryImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Repository/Impl/Stock/IngredientItemRepositoryImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Repository/Impl/IngredientRepositoryImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Repository/Impl/Stock/IngredientRepositoryImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Repository/Impl/InventoryRepositoryImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Repository/Impl/Stock/InventoryRepositoryImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Repository/Impl/LargeCakeRepositoryImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Repository/Impl/ItemTypes/LargeCakeRepositoryImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Repository/Impl/OrderItemRepositoryImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Repository/Impl/Orders/OrderItemRepositoryImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Repository/Impl/OrderRepositoryImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Repository/Impl/Orders/OrderRepositoryImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Repository/Impl/OwnerRepositoryImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Repository/Impl/Profile/OwnerRepositoryImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Repository/Impl/ProfileRepositoryImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Repository/Impl/Profile/ProfileRepositoryImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Repository/Impl/SavouryRepositoryImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Repository/Impl/ItemTypes/SavouryRepositoryImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Repository/Impl/SmallCakeRepositoryImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Repository/Impl/ItemTypes/SmallCakeRepositoryImplTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -73,41 +89,99 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Repository/Impl/EquipmentRepositoryImplTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Repository/Profile/ProfileRepositpry.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="548">
-              <caret line="50" column="5" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="50" selection-end-column="5" />
+            <state relative-caret-position="68">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Repository/Impl/SmallCakeRepositoryImpl.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Repository/Profile/Impl/ProfileRepositoryImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#360#361#0" expanded="true" />
-                <element signature="e#409#410#0" expanded="true" />
-                <element signature="e#882#883#0" expanded="true" />
-                <element signature="e#920#921#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="68">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Repository/Stock/EquipmentRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Repository/Stock/Impl/EquipmentRepositoryImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Repository/Stock/IngredientItemRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Repository/Stock/Impl/IngredientItemRepositoryImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Repository/Stock/IngredientRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Repository/Stock/Impl/IngredientRepositoryImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Repository/Stock/InventoryRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Repository/Impl/SmallCakeRepositoryImplTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Repository/Stock/Impl/InventoryRepositoryImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="463">
-              <caret line="49" column="41" selection-start-line="49" selection-start-column="41" selection-end-line="49" selection-end-column="41" />
+            <state relative-caret-position="935">
+              <caret line="59" column="37" lean-forward="true" selection-start-line="59" selection-start-column="37" selection-end-line="59" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -134,13 +208,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/Domain/OrderItem.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/Repository/CorporateInterface.java" />
         <option value="$PROJECT_DIR$/src/main/java/Repository/IRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/Repository/Impl/CorporateRepositoryImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/Repository/DomesticRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Repository/CorporateRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/Repository/CakeRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/Repository/EmployeeRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/Repository/EquipmentRepository.java" />
@@ -185,6 +257,8 @@
         <option value="$PROJECT_DIR$/src/test/java/Repository/Impl/ProfileRepositoryImplTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/Repository/Impl/SavouryRepositoryImplTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/Repository/Impl/SmallCakeRepositoryImplTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Repository/CorporateRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Repository/Customers/CorporateRepository.java" />
       </list>
     </option>
   </component>
@@ -212,6 +286,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -219,12 +294,29 @@
               <item name="Bakery" type="b2602c69:ProjectViewProjectNode" />
               <item name="Bakery" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Bakery" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Bakery" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Bakery" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Bakery" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Bakery" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Bakery" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -244,14 +336,21 @@
       <recent name="Repository.Impl" />
       <recent name="Factory" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Rafeeq\Desktop\Bakery\Images" />
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="Factory.Stock" />
+      <recent name="Factory.Profile" />
+      <recent name="Factory.Orders" />
+      <recent name="Factory.ItemTypes" />
+      <recent name="Factory.Customers" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Rafeeq\Desktop\Bakery\src\main\java\Factory" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Rafeeq\Desktop\Bakery\src\main\java\Factory" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Rafeeq\Desktop\Bakery\Images" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -271,12 +370,12 @@
       <module name="Bakery" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Repository.Impl.*" />
+          <option name="PATTERN" value="Repository.Impl.Customers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Repository.Impl" />
-      <option name="MAIN_CLASS_NAME" value="Repository.Impl.CakeRepositoryImplTest" />
+      <option name="PACKAGE_NAME" value="Repository.Impl.ItemTypes" />
+      <option name="MAIN_CLASS_NAME" value="Repository.Impl.ItemTypes.CakeRepositoryImplTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -286,12 +385,12 @@
       <module name="Bakery" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Repository.Impl.*" />
+          <option name="PATTERN" value="Repository.Impl.Customers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Repository.Impl" />
-      <option name="MAIN_CLASS_NAME" value="Repository.Impl.CakeRepositoryImplTest" />
+      <option name="PACKAGE_NAME" value="Repository.Impl.ItemTypes" />
+      <option name="MAIN_CLASS_NAME" value="Repository.Impl.ItemTypes.CakeRepositoryImplTest" />
       <option name="METHOD_NAME" value="read" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -302,7 +401,7 @@
       <module name="BakeryApplication" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Factory.*" />
+          <option name="PATTERN" value="Factory.Customers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -339,7 +438,8 @@
       <workItem from="1556438772715" duration="5014000" />
       <workItem from="1556479535696" duration="696000" />
       <workItem from="1556480435633" duration="623000" />
-      <workItem from="1556482444878" duration="4579000" />
+      <workItem from="1556482444878" duration="5205000" />
+      <workItem from="1558171852224" duration="2485000" />
     </task>
     <task id="LOCAL-00001" summary="Adding Domains as well as Factories and tests for each domain">
       <created>1555466390849</created>
@@ -348,7 +448,14 @@
       <option name="project" value="LOCAL" />
       <updated>1555466390849</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Adding Repositories with implementations and Test cases">
+      <created>1556501492347</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1556501492347</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -363,7 +470,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50097000" />
+    <option name="totallyTimeSpent" value="53208000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -376,8 +483,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18336888" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18550107" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -386,13 +494,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32809225" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3281412" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3281412" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32917964" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32917964" />
+      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.07165109" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32914045" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32914045" />
@@ -453,487 +561,412 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adding Domains as well as Factories and tests for each domain" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding Domains as well as Factories and tests for each domain" />
+    <MESSAGE value="Adding Repositories with implementations and Test cases" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding Repositories with implementations and Test cases" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/Repository/DomesticRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Domain/Profile/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Repository/EmployeeRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Repository/EquipmentRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Repository/IngredientItemRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Repository/IngredientRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Repository/InventoryRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Repository/OrderItemRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Repository/OrderRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Repository/OwnerRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Repository/ProfileRepositpry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Domain/ItemTypes/Savoury.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
-          <folding>
-            <element signature="e#247#248#0" expanded="true" />
-            <element signature="e#281#282#0" expanded="true" />
-            <element signature="e#525#526#0" expanded="true" />
-            <element signature="e#573#574#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Factory/SavouryFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Factory/Profile/OwnerFactoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Domain/ItemTypes/LargeCake.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
-          <folding>
-            <element signature="e#259#260#0" expanded="true" />
-            <element signature="e#295#296#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Domain/ItemTypes/SmallCake.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
-          <folding>
-            <element signature="e#259#260#0" expanded="true" />
-            <element signature="e#295#296#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Factory/SavouryFactoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="13" column="48" lean-forward="true" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Repository/SavouryRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Repository/SmallCakeRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Repository/LargeCakeRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Repository/Impl/CorporateRepositoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Repository/CakeRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Domain/ItemTypes/Cake.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="28" column="29" lean-forward="true" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
-          <folding>
-            <element signature="e#526#527#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Repository/Impl/CakeRepositoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="54" column="27" lean-forward="true" selection-start-line="54" selection-start-column="27" selection-end-line="54" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Repository/Impl/CorporateRepositoryImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="40" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Repository/Impl/CakeRepositoryImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="548">
-          <caret line="50" column="5" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="50" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Repository/Impl/DomesticRepositoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#618#619#0" expanded="true" />
-            <element signature="e#655#656#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Repository/Impl/EmployeeRepositoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Repository/Impl/EquipmentRepositoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Repository/Impl/IngredientItemRepositoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#966#967#0" expanded="true" />
-            <element signature="e#1009#1010#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Repository/Impl/IngredientItemRepositoryImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-336">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Repository/Impl/DomesticRepositoryImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Repository/Impl/EmployeeRepositoryImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="49" column="49" lean-forward="true" selection-start-line="49" selection-start-column="49" selection-end-line="49" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Repository/Impl/IngredientRepositoryImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="49" column="51" lean-forward="true" selection-start-line="49" selection-start-column="51" selection-end-line="49" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Repository/Impl/IngredientRepositoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Repository/Impl/InventoryRepositoryImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-323">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Repository/Impl/LargeCakeRepositoryImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Factory/Profile/ProfileFactoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Repository/Impl/LargeCakeRepositoryImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="49" column="49" lean-forward="true" selection-start-line="49" selection-start-column="49" selection-end-line="49" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Repository/Impl/InventoryRepositoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Repository/Impl/OrderItemRepositoryImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="49" column="41" selection-start-line="49" selection-start-column="41" selection-end-line="49" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Repository/Impl/OrderItemRepositoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Repository/Impl/OrderRepositoryImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="49" column="46" lean-forward="true" selection-start-line="49" selection-start-column="46" selection-end-line="49" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Repository/Impl/OrderRepositoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Repository/Impl/OwnerRepositoryImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="49" column="46" lean-forward="true" selection-start-line="49" selection-start-column="46" selection-end-line="49" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Repository/Impl/OwnerRepositoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Repository/Impl/ProfileRepositoryImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="49" column="39" selection-start-line="49" selection-start-column="39" selection-end-line="49" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Repository/Impl/ProfileRepositoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Repository/Impl/SavouryRepositoryImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="49" column="40" selection-start-line="49" selection-start-column="40" selection-end-line="49" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Repository/Impl/SavouryRepositoryImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Factory/Stock/EquipmentFactoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Factory/Stock/IngredientFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Factory/Stock/IngredientItemFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Factory/Stock/InventoryFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Repository/Impl/Customers/CorporateRepositoryImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Repository/Impl/EquipmentRepositoryImplTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Repository/Impl/Customers/DomesticRepositoryImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="548">
-          <caret line="50" column="5" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="50" selection-end-column="5" />
+        <state relative-caret-position="68">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Repository/Impl/SmallCakeRepositoryImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Repository/Impl/ItemTypes/CakeRepositoryImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Repository/Impl/ItemTypes/LargeCakeRepositoryImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Repository/Impl/ItemTypes/SavouryRepositoryImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Repository/Impl/ItemTypes/SmallCakeRepositoryImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Repository/Impl/Orders/OrderItemRepositoryImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Repository/Impl/Orders/OrderRepositoryImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Repository/Impl/Profile/EmployeeRepositoryImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Repository/Impl/Profile/OwnerRepositoryImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Repository/Impl/Profile/ProfileRepositoryImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Repository/Impl/Stock/EquipmentRepositoryImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Repository/Impl/Stock/IngredientItemRepositoryImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Repository/Impl/Stock/IngredientRepositoryImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Repository/Impl/Stock/InventoryRepositoryImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Repository/Customers/CorporateRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Repository/Customers/Impl/CorporateRepositoryImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#360#361#0" expanded="true" />
-            <element signature="e#409#410#0" expanded="true" />
-            <element signature="e#882#883#0" expanded="true" />
-            <element signature="e#920#921#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Repository/Impl/SmallCakeRepositoryImplTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Repository/Customers/DomesticRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="49" column="41" selection-start-line="49" selection-start-column="41" selection-end-line="49" selection-end-column="41" />
+        <state relative-caret-position="68">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Repository/Customers/Impl/DomesticRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Repository/ItemTypes/CakeRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Repository/ItemTypes/Impl/CakeRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Repository/ItemTypes/LargeCakeRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Repository/ItemTypes/Impl/LargeCakeRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Repository/ItemTypes/SavouryRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Repository/ItemTypes/Impl/SavouryRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Repository/ItemTypes/SmallCakeRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Repository/ItemTypes/Impl/SmallCakeRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Repository/Orders/OrderItemRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Repository/Orders/Impl/OrderItemRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Repository/Orders/OrderRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Repository/Orders/Impl/OrderRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Repository/Profile/EmployeeRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Repository/Profile/Impl/EmployeeRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Repository/Profile/OwnerRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Repository/Profile/Impl/OwnerRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Repository/Profile/ProfileRepositpry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Repository/Profile/Impl/ProfileRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Repository/Stock/EquipmentRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Repository/Stock/Impl/EquipmentRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Repository/Stock/IngredientItemRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Repository/Stock/Impl/IngredientItemRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Repository/Stock/IngredientRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Repository/Stock/Impl/IngredientRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Repository/Stock/InventoryRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Repository/Stock/Impl/InventoryRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="59" column="37" lean-forward="true" selection-start-line="59" selection-start-column="37" selection-end-line="59" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
