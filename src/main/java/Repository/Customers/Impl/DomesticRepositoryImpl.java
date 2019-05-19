@@ -2,10 +2,12 @@ package Repository.Customers.Impl;
 
 import Domain.Customers.Domestic;
 import Repository.Customers.DomesticRepository;
+import org.springframework.stereotype.Repository;
 
 import java.util.HashSet;
 import java.util.Set;
 
+@Repository("InMemory")
 public class DomesticRepositoryImpl implements DomesticRepository {
 
     private static DomesticRepositoryImpl repository = null;

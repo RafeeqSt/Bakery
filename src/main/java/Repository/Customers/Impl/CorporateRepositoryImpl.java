@@ -2,10 +2,12 @@ package Repository.Customers.Impl;
 
 import Repository.Customers.CorporateRepository;
 import Domain.Customers.Corporate;
+import org.springframework.stereotype.Repository;
 
 import java.util.HashSet;
 import java.util.Set;
 
+@Repository("InMemory")
 public class CorporateRepositoryImpl implements CorporateRepository {
 
     private static CorporateRepositoryImpl repository = null;

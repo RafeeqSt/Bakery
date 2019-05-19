@@ -2,10 +2,12 @@ package Repository.Stock.Impl;
 
 import Domain.Stock.IngredientItem;
 import Repository.Stock.IngredientItemRepository;
+import org.springframework.stereotype.Repository;
 
 import java.util.HashSet;
 import java.util.Set;
 
+@Repository("InMemory")
 public class IngredientItemRepositoryImpl implements IngredientItemRepository {
 
     private static IngredientItemRepositoryImpl repository = null;

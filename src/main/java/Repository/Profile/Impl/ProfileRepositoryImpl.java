@@ -2,10 +2,12 @@ package Repository.Profile.Impl;
 
 import Domain.Profile.Profile;
 import Repository.Profile.ProfileRepositpry;
+import org.springframework.stereotype.Repository;
 
 import java.util.HashSet;
 import java.util.Set;
 
+@Repository("InMemory")
 public class ProfileRepositoryImpl implements ProfileRepositpry {
 
     private static ProfileRepositoryImpl repository = null;

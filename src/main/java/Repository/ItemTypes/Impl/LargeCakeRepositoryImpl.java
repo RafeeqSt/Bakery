@@ -2,10 +2,12 @@ package Repository.ItemTypes.Impl;
 
 import Domain.ItemTypes.LargeCake;
 import Repository.ItemTypes.LargeCakeRepository;
+import org.springframework.stereotype.Repository;
 
 import java.util.HashSet;
 import java.util.Set;
 
+@Repository("InMemory")
 public class LargeCakeRepositoryImpl implements LargeCakeRepository {
 
     private static LargeCakeRepositoryImpl repository = null;

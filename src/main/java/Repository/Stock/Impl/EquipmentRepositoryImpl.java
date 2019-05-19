@@ -2,10 +2,12 @@ package Repository.Stock.Impl;
 
 import Domain.Stock.Equipment;
 import Repository.Stock.EquipmentRepository;
+import org.springframework.stereotype.Repository;
 
 import java.util.HashSet;
 import java.util.Set;
 
+@Repository("InMemory")
 public class EquipmentRepositoryImpl implements EquipmentRepository {
 
     private static EquipmentRepositoryImpl repository = null;

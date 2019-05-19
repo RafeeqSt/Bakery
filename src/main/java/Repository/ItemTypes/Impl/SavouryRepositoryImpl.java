@@ -2,10 +2,12 @@ package Repository.ItemTypes.Impl;
 
 import Domain.ItemTypes.Savoury;
 import Repository.ItemTypes.SavouryRepository;
+import org.springframework.stereotype.Repository;
 
 import java.util.HashSet;
 import java.util.Set;
 
+@Repository("InMemory")
 public class SavouryRepositoryImpl implements SavouryRepository {
 
     private static SavouryRepositoryImpl repository = null;

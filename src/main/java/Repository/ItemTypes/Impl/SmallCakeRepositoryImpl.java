@@ -2,10 +2,12 @@ package Repository.ItemTypes.Impl;
 
 import Domain.ItemTypes.SmallCake;
 import Repository.ItemTypes.SmallCakeRepository;
+import org.springframework.stereotype.Repository;
 
 import java.util.HashSet;
 import java.util.Set;
 
+@Repository("InMemory")
 public class SmallCakeRepositoryImpl implements SmallCakeRepository {
 
     private static SmallCakeRepositoryImpl repository = null;

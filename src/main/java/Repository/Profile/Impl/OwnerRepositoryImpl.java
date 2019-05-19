@@ -2,10 +2,12 @@ package Repository.Profile.Impl;
 
 import Domain.Profile.Owner;
 import Repository.Profile.OwnerRepository;
+import org.springframework.stereotype.Repository;
 
 import java.util.HashSet;
 import java.util.Set;
 
+@Repository("InMemory")
 public class OwnerRepositoryImpl implements OwnerRepository {
 
     private static OwnerRepositoryImpl repository = null;

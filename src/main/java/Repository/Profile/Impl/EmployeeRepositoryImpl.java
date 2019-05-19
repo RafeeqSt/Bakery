@@ -2,10 +2,12 @@ package Repository.Profile.Impl;
 
 import Domain.Profile.Employee;
 import Repository.Profile.EmployeeRepository;
+import org.springframework.stereotype.Repository;
 
 import java.util.HashSet;
 import java.util.Set;
 
+@Repository("InMemory")
 public class EmployeeRepositoryImpl implements EmployeeRepository {
 
     private static EmployeeRepositoryImpl repository = null;

@@ -2,10 +2,12 @@ package Repository.Stock.Impl;
 
 import Domain.Stock.Inventory;
 import Repository.Stock.InventoryRepository;
+import org.springframework.stereotype.Repository;
 
 import java.util.HashSet;
 import java.util.Set;
 
+@Repository("InMemory")
 public class InventoryRepositoryImpl implements InventoryRepository {
 
     private static InventoryRepositoryImpl repository = null;

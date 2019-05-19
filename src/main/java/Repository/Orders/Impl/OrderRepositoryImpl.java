@@ -2,10 +2,12 @@ package Repository.Orders.Impl;
 
 import Domain.Orders.Order;
 import Repository.Orders.OrderRepository;
+import org.springframework.stereotype.Repository;
 
 import java.util.HashSet;
 import java.util.Set;
 
+@Repository("InMemory")
 public class OrderRepositoryImpl implements OrderRepository {
 
     private static OrderRepositoryImpl repository = null;
