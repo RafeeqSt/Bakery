@@ -1,40 +1,62 @@
 package Repository.Impl.Customers;
 
 import Domain.Customers.Corporate;
+import Factory.Customers.CorporateFactory;
 import Repository.Customers.CorporateRepository;
 import Repository.Customers.Impl.CorporateRepositoryImpl;
 import org.junit.Assert;
 import org.junit.Before;
+import org.junit.FixMethodOrder;
 import org.junit.Test;
+import org.junit.runners.MethodSorters;
 
 import java.util.Set;
 
+@FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class CorporateRepositoryImplTest {
 
     private CorporateRepository repository;
+    private Corporate corporate;
+
+    private Corporate getSavedCorporate() {
+        Set<Corporate> savedCorporate = this.repository.getAll();
+        return savedCorporate.iterator().next();
+    }
+
 
     @Before
     public void setUp() throws Exception {
         this.repository = CorporateRepositoryImpl.getRepository();
+        this.corporate = CorporateFactory.getCorporate("TestID","TestName");
     }
 
     @Test
     public void create() {
-        //create a student, add it to the repository
-        this.repository.create(null);
-        Assert.assertEquals(null, null);
+        Corporate created = this.repository.create(this.corporate);
+        System.out.println("In create, created = " + created);
+        getAll();
+        Assert.assertSame(created, this.corporate);
     }
 
     @Test
     public void read() {
-        this.repository.read("123");
-        Assert.assertEquals("123", "123");
+        Corporate savedCorporate = getSavedCorporate();
+        System.out.println("In read, courseId = "+ savedCorporate.getCompanyID());
+        Corporate read = this.repository.read(savedCorporate.getCompanyID());
+        System.out.println("In read, read = " + read);
+        getAll();
+        Assert.assertEquals(savedCorporate, read);
     }
 
     @Test
     public void update() {
-        this.repository.update(null);
-        Assert.assertEquals(null, null);
+        String newname = "New Test Corporate ID";
+        Corporate corporate = new Corporate.Builder().copy(getSavedCorporate()).companyID(newname).build();
+        System.out.println("In update, about_to_updated = " + corporate);
+        Corporate updated = this.repository.update(corporate);
+        System.out.println("In update, updated = " + updated);
+        Assert.assertSame(newname, updated.getCompanyID());
+        getAll();
     }
 
     @Test

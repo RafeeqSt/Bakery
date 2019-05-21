@@ -35,6 +35,13 @@ public class Corporate {
             return this;
         }
 
+        public Builder copy(Corporate corporate){
+            this.companyID = corporate.companyID;
+            this.companyName = corporate.companyName;
+
+            return this;
+        }
+
         public Corporate build() {
             return new Corporate(this);
         }
